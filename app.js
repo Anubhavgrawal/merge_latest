@@ -1,6 +1,13 @@
 //main file
+// <<<<<<< HEAD
+// function add(a,b){
+//     return a+b;
+// }
+// =======
 function add (a,b,c){
     console.log("Returning sum of three nums")
+    console.log(a,b,c);
     return a+b+c;
 }
 console.log(add(1,2,3));
+// >>>>>>> origin
